@@ -6,12 +6,13 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController($timeout, webDevTec, toastr,$log) {
+  function MainController($scope,$timeout, webDevTec, toastr,$log) {
 
     var vm = this;
 
-    vm.map = {center: {latitude: 51.219053, longitude: 4.404418 }, zoom: 14 };
-    vm.options = {scrollwheel: false};
+    $scope.$on('mapInitialized', function(event, map) {
+        google.maps.event.trigger(map, "resize");
+    });
 
     vm.awesomeThings = [];
     vm.classAnimation = '';
