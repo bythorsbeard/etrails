@@ -51,6 +51,7 @@
 				<Icon>
 					<href>icons/mapPinHistorical.png</href>
 				</Icon>
+				<scale>1.3</scale>
 			</IconStyle>
 		</Style>		
 	</Document>

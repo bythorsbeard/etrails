@@ -35,6 +35,7 @@
 				<Icon>
 					<href>icons/mapPinBeer.png</href>
 				</Icon>
+				<scale>1.3</scale>
 			</IconStyle>
 		</Style>
 		<Style id="smartmouth-icon">
@@ -42,7 +43,7 @@
 				<Icon>
 					<href>icons/featured/smartmouthLogo.png</href>
 				</Icon>
-				<scale>1.3</scale>
+				<scale>1.5</scale>
 			</IconStyle>
 		</Style>			
 	</Document>
