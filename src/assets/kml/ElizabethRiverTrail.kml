@@ -90,13 +90,30 @@
 				</ExtendedData>
 				<LineString>
 					<tessellate>1</tessellate>
-					<coordinates>-76.29762599999998,36.853493,0.0 -76.29762199999999,36.853398,0.0 -76.29674699999998,36.853384,0.0 -76.29604799999998,36.853408,0.0 -76.29586799999998,36.851113,0.0 -76.29460699999998,36.851157,0.0 -76.29458,36.850457,0.0</coordinates>
+					<coordinates>-76.29604799999998,36.853408,0.0 -76.29586799999998,36.851113,0.0 -76.29460699999998,36.851157,0.0 -76.29458,36.850457,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>W York St</name>
+				<description><![CDATA[W York St: Road]]></description>
+				<styleUrl>#line-hazard</styleUrl>
+				<ExtendedData>
+					<Data name='name'>
+						<value>W York St</value>
+					</Data>
+					<Data name='description'>
+						<value>Road</value>
+					</Data>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-76.29762599999998,36.853493,0.0 -76.29762199999999,36.853398,0.0 -76.29674699999998,36.853384,0.0 -76.29604799999998,36.853408,0.0</coordinates>
 				</LineString>
 			</Placemark>
 			<Placemark>
 				<name>Brambleton Bridge</name>
 				<description><![CDATA[Brambleton Bridge: Sidewalk]]></description>
-				<styleUrl>#line-trail</styleUrl>
+				<styleUrl>#line-hazard</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Brambleton Bridge</value>
@@ -113,7 +130,7 @@
 			<Placemark>
 				<name>Fort Norfolk</name>
 				<description><![CDATA[Fort Norfolk: Road]]></description>
-				<styleUrl>#line-trail</styleUrl>
+				<styleUrl>#line-hazard</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Fort Norfolk</value>
@@ -130,7 +147,7 @@
 			<Placemark>
 				<name>Atlantic City Spur</name>
 				<description><![CDATA[Atlantic City Spur: Asphalt Path]]></description>
-				<styleUrl>#line-trail</styleUrl>
+				<styleUrl>#line-hazard</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Atlantic City Spur</value>
@@ -147,7 +164,7 @@
 			<Placemark>
 				<name>Orapax Street</name>
 				<description><![CDATA[Orapax Street: Road]]></description>
-				<styleUrl>#line-trail</styleUrl>
+				<styleUrl>#line-hazard</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Orapax Street</value>
@@ -385,13 +402,13 @@
 		</Folder>
 		<Style id='line-trail-normal'>
 			<LineStyle>
-				<color>FF43A3F9</color>
+				<color>F043A3F9</color>
 				<width>5</width>
 			</LineStyle>
 		</Style>
 		<Style id='line-trail-highlight'>
 			<LineStyle>
-				<color>FF1C8EF5</color>
+				<color>F01C8EF5</color>
 				<width>10.0</width>
 			</LineStyle>
 		</Style>
@@ -403,6 +420,28 @@
 			<Pair>
 				<key>highlight</key>
 				<styleUrl>#line-trail-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-hazard-normal'>
+			<LineStyle>
+				<color>884400FF</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-hazard-highlight'>
+			<LineStyle>
+				<color>883702CB</color>
+				<width>10.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-hazard'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-hazard-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-hazard-highlight</styleUrl>
 			</Pair>
 		</StyleMap>		
 	</Document>

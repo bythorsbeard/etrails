@@ -8,7 +8,7 @@
 			<Placemark>
 				<name>Crosswalk across Brambleton</name>
 				<description><![CDATA[Cross Brambleton using crosswalk at York Street and Botetourt]]></description>
-				<styleUrl>#line-hazard</styleUrl>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Crosswalk across Brambleton</value>
@@ -25,7 +25,7 @@
 			<Placemark>
 				<name>Botetourt Bridge</name>
 				<description><![CDATA[Botetourt Bridge: Bike/Pedestrian Bridge]]></description>
-				<styleUrl>#line-hazard</styleUrl>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Botetourt Bridge</value>
@@ -42,7 +42,7 @@
 			<Placemark>
 				<name>Botetourt Street</name>
 				<description><![CDATA[Botetourt Street: Sidewalk]]></description>
-				<styleUrl>#line-hazard</styleUrl>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Botetourt Street</value>
@@ -59,7 +59,7 @@
 			<Placemark>
 				<name>W Olney Rd</name>
 				<description><![CDATA[W Olney Rd: Sidewalk]]></description>
-				<styleUrl>#line-hazard</styleUrl>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>W Olney Rd</value>
@@ -76,7 +76,7 @@
 			<Placemark>
 				<name>Crosswalk across W Olney Rd</name>
 				<description><![CDATA[Crosswalk across W Olney Rd: Road]]></description>
-				<styleUrl>#line-hazard</styleUrl>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Crosswalk across W Olney Rd</value>
@@ -93,7 +93,7 @@
 			<Placemark>
 				<name>Stockley Gardens</name>
 				<description><![CDATA[Stockley Gardens: Sidewalk]]></description>
-				<styleUrl>#line-hazard</styleUrl>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Stockley Gardens</value>
@@ -110,7 +110,7 @@
 			<Placemark>
 				<name>Redgate Ave</name>
 				<description><![CDATA[Redgate Ave: Sidewalk]]></description>
-				<styleUrl>#line-hazard</styleUrl>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Redgate Ave</value>
@@ -127,7 +127,7 @@
 			<Placemark>
 				<name>Crosswalk across Colley Ave</name>
 				<description><![CDATA[Crosswalk across Colley Ave: Road]]></description>
-				<styleUrl>#line-hazard</styleUrl>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Crosswalk across Colley Ave</value>
@@ -144,7 +144,7 @@
 			<Placemark>
 				<name>Redgate Ave</name>
 				<description><![CDATA[Redgate Ave: Sidewalk]]></description>
-				<styleUrl>#line-hazard</styleUrl>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Redgate Ave</value>
@@ -161,7 +161,7 @@
 			<Placemark>
 				<name>Crosswalk across Redgate Ave</name>
 				<description><![CDATA[Crosswalk across Redgate Ave: Road ]]></description>
-				<styleUrl>#line-hazard</styleUrl>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Crosswalk across Redgate Ave</value>
@@ -178,7 +178,7 @@
 			<Placemark>
 				<name>Redgate Ave</name>
 				<description><![CDATA[Redgate Ave: Asphalt Path]]></description>
-				<styleUrl>#line-hazard</styleUrl>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Redgate Ave</value>
@@ -193,6 +193,28 @@
 				</LineString>
 			</Placemark>
 		</Folder>
+		<Style id='line-trail-normal'>
+			<LineStyle>
+				<color>FF43A3F9</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-trail-highlight'>
+			<LineStyle>
+				<color>FF1C8EF5</color>
+				<width>10.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-trail'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-trail-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-trail-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
 		<Style id='line-hazard-normal'>
 			<LineStyle>
 				<color>FF4400FF</color>
