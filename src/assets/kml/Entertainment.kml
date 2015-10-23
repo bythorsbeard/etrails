@@ -7,7 +7,7 @@
 			<name>Entertainment</name>
 			<Placemark>
 				<name>Harbor Park</name>
-				<description>Harbor Park is a stadium, used primarily for baseball, on the Elizabeth River, in downtown Norfolk, Virginia.</description>
+				<description>Harbor Park is a stadium, used primarily for baseball, on the Elizabeth River.</description>
 				<styleUrl>#icon</styleUrl>
 				<Point>
 					<coordinates>-76.27898800000000,36.84279300000000,0.0</coordinates>
