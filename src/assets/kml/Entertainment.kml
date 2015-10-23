@@ -12,6 +12,14 @@
 				<Point>
 					<coordinates>-76.27898800000000,36.84279300000000,0.0</coordinates>
 				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Spirit of Norfolk</name>
+				<description>Splash aboard Spirit of Norfolk for the perfect mix of dining, entertainment and views.</description>
+				<styleUrl>#icon</styleUrl>
+				<Point>
+					<coordinates>-76.29324800000000,36.84484800000000,0.0</coordinates>
+				</Point>
 			</Placemark>			
 		</Folder>
 		<Style id="icon">
