@@ -1,7 +1,10 @@
 {
   "name": "etrails",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "bower": "^1.6.3",
+    "cordova": "^5.3.3"
+  },
   "scripts": {
     "test": "gulp test"
   },
