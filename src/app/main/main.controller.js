@@ -9,7 +9,8 @@
   function MainController($scope, $timeout, webDevTec, toastr, $log) {
 
     var vm = this;
-    var gmap,trailLayer, hazzardLayer, entertainmentLayer;
+    var gmap, trailLayer, hazzardLayer, entertainmentLayer, historicLayer, foodLayer, scenicLayer, restLayer;
+
 
     var layers = {
       trail: {
@@ -26,48 +27,151 @@
         url: 'https://raw.githubusercontent.com/bythorsbeard/etrails/master/src/assets/kml/Entertainment.kml',
         suppressInfoWindows: true,
         preserveViewport: true
+      },
+      food: {
+        url: 'https://raw.githubusercontent.com/bythorsbeard/etrails/master/src/assets/kml/FoodDrink.kml',
+        suppressInfoWindows: true,
+        preserveViewport: true
+      },
+      scenic: {
+        url: 'https://raw.githubusercontent.com/bythorsbeard/etrails/master/src/assets/kml/Scenic.kml',
+        suppressInfoWindows: true,
+        preserveViewport: true
+      },
+      historic: {
+        url: 'https://raw.githubusercontent.com/bythorsbeard/etrails/master/src/assets/kml/Historic.kml',
+        suppressInfoWindows: true,
+        preserveViewport: true
+      },
+      rest: {
+        url: 'https://raw.githubusercontent.com/bythorsbeard/etrails/master/src/assets/kml/Rest.kml',
+        suppressInfoWindows: true,
+        preserveViewport: true
       }
 
+    };
 
-    }
+    $scope.toggleFilters = function () {
+
+      if (document.getElementById("chkEnter").checked) {
+        //entertainmentLayer = new google.maps.KmlLayer(layers.entertainment);
+        entertainmentLayer.setMap(gmap);
+      }
+      else {
+        entertainmentLayer.setMap(null);
+      }
+      if (document.getElementById("chkHist").checked) {
+        //historicLayer = new google.maps.KmlLayer(layers.historic);
+        historicLayer.setMap(gmap);
+      }
+      else {
+        historicLayer.setMap(null);
+      }
+      if (document.getElementById("chkFood").checked) {
+        //foodLayer = new google.maps.KmlLayer(layers.food);
+        foodLayer.setMap(gmap);
+      }
+      else {
+        foodLayer.setMap(null);
+      }
+      if (document.getElementById("chkScenic").checked) {
+        //scenicLayer = new google.maps.KmlLayer(layers.scenic);
+        scenicLayer.setMap(gmap);
+      }
+      else {
+        scenicLayer.setMap(null);
+      }
+      if (document.getElementById("chkRest").checked) {
+        //restLayer = new google.maps.KmlLayer(layers.rest);
+        restLayer.setMap(gmap);
+      }
+      else {
+        restLayer.setMap(null);
+      }
+
+    };
 
     $scope.$on('mapInitialized', function (event, map) {
       //google.maps.event.trigger(map, "resize");
       gmap = map;
       trailLayer = new google.maps.KmlLayer(layers.trail);
-      trailLayer.setMap(map);
+      trailLayer.setMap(gmap);
+      trailLayer.addListener('click', function(kmlEvent) {
+        var text = kmlEvent.featureData.description;
+        $log.info(text);
+      });
 
       hazzardLayer = new google.maps.KmlLayer(layers.hazards);
-      hazzardLayer.setMap(map);
+      hazzardLayer.setMap(gmap);
+      hazzardLayer.addListener('click', function(kmlEvent) {
+        var text = kmlEvent.featureData.description;
+        $log.info(text);
+      });
 
       entertainmentLayer = new google.maps.KmlLayer(layers.entertainment);
-      entertainmentLayer.setMap(map);
+      entertainmentLayer.setMap(gmap);
+      entertainmentLayer.addListener('click', function(kmlEvent) {
+        var text = kmlEvent.featureData.description;
+        $log.info(text);
+      });
 
-      var infoWindow = new google.maps.InfoWindow({map: map});
+      historicLayer = new google.maps.KmlLayer(layers.historic);
+      historicLayer.setMap(gmap);
+      historicLayer.addListener('click', function(kmlEvent) {
+        var text = kmlEvent.featureData.description;
+        $log.info(text);
+      });
 
-      // Try HTML5 geolocation.
-      if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(function(position) {
-          var pos = {
-            lat: position.coords.latitude,
-            lng: position.coords.longitude
-          };
+      foodLayer = new google.maps.KmlLayer(layers.food);
+      foodLayer.setMap(gmap);
+      foodLayer.addListener('click', function(kmlEvent) {
+        var text = kmlEvent.featureData.description;
+        $log.info(text);
+      });
 
-          infoWindow.setPosition(pos);
-          infoWindow.setContent('Location found.');
-          log.info(pos);
-          map.setCenter(pos);
-        }, function(test) {
-          $log.error(test);
-          $log.error("wtf");
-          handleLocationError(true, infoWindow, map.getCenter());
-        });
-      } else {
-        $log.error("huh");
-        // Browser doesn't support Geolocation
-        handleLocationError(false, infoWindow, map.getCenter());
-      }
+      scenicLayer = new google.maps.KmlLayer(layers.scenic);
+      scenicLayer.setMap(gmap);
+      scenicLayer.addListener('click', function(kmlEvent) {
+        var text = kmlEvent.featureData.description;
+        $log.info(text);
+      });
 
+      restLayer = new google.maps.KmlLayer(layers.rest);
+      restLayer.setMap(gmap);
+      restLayer.addListener('click', function(kmlEvent) {
+        var text = kmlEvent.featureData.description;
+        $log.info(text);
+      });
+
+
+      /*entertainmentLayer = new google.maps.KmlLayer(layers.entertainment);
+       entertainmentLayer.setMap(map);*/
+
+      /* var infoWindow = new google.maps.InfoWindow({map: map});
+
+       // Try HTML5 geolocation.
+       if (navigator.geolocation) {
+       navigator.geolocation.getCurrentPosition(function(position) {
+       var pos = {
+       lat: position.coords.latitude,
+       lng: position.coords.longitude
+       };
+
+       infoWindow.setPosition(pos);
+       infoWindow.setContent('Location found.');
+       log.info(pos);
+       map.setCenter(pos);
+       }, function(test) {
+       $log.error(test);
+       $log.error("wtf");
+       handleLocationError(true, infoWindow, map.getCenter());
+       });
+       } else {
+       $log.error("huh");
+       // Browser doesn't support Geolocation
+       handleLocationError(false, infoWindow, map.getCenter());
+       }
+       */
 
       $log.info(map);
     });
@@ -80,41 +184,14 @@
     }
 
     $scope.hideLayer = function () {
-      if(hazzardLayer.getMap()) {
+      if (hazzardLayer.getMap()) {
         hazzardLayer.setMap(null);
-      }else{
+      } else {
         hazzardLayer = new google.maps.KmlLayer(layers.hazards);
         hazzardLayer.setMap(gmap);
       }
 
     };
 
-
-    vm.awesomeThings = [];
-    vm.classAnimation = '';
-    vm.creationDate = 1445470013693;
-    vm.showToastr = showToastr;
-
-    activate();
-
-    function activate() {
-      getWebDevTec();
-      $timeout(function () {
-        vm.classAnimation = 'rubberBand';
-      }, 4000);
-    }
-
-    function showToastr() {
-      toastr.info('Fork <a href="https://github.com/Swiip/generator-gulp-angular" target="_blank"><b>generator-gulp-angular</b></a>');
-      vm.classAnimation = '';
-    }
-
-    function getWebDevTec() {
-      vm.awesomeThings = webDevTec.getTec();
-
-      angular.forEach(vm.awesomeThings, function (awesomeThing) {
-        awesomeThing.rank = Math.random();
-      });
-    }
   }
 })();

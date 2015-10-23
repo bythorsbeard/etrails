@@ -8,170 +8,49 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="#">Brand</a>
+    <a class="navbar-brand" href="#">Filters</a>
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" ng-class="!navCollapsed && 'in'">
 
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Link</a></li>
-      <li><a href="#">Link</a></li>
 
-      <li dropdown>
-        <a href="#" dropdown-toggle>Dropdown <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else here</a></li>
-          <li><a href="#">Separated link</a></li>
-          <li><a href="#">One more separated link</a></li>
-        </ul>
-      </li>
-
-    </ul>
-    <form class="navbar-form navbar-left" role="search">
-      <div class="form-group">
-        <input type="text" class="form-control" placeholder="Search">
+      <div class="checkbox" >
+        <label>
+          <input id="chkFood" type="checkbox" checked="checked"> Food & Drink
+        </label>
       </div>
-      <button type="submit" class="btn btn-default">Submit</button>
-    </form>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">Link</a></li>
-      <li dropdown>
-        <a href="#" dropdown-toggle>Dropdown <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else here</a></li>
-          <li><a href="#">Separated link</a></li>
-          <li><a href="#">One more separated link</a></li>
-        </ul>
-      </li>
+      <div class="checkbox">
+        <label>
+          <input id="chkEnter" type="checkbox" checked="checked"> Entertainment
+        </label>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input id="chkHist" type="checkbox" checked="checked"> Historic
+        </label>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input id="chkScenic" type="checkbox" checked="checked"> Scenic
+        </label>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input id="chkRest" type="checkbox" checked="checked"> Rest
+        </label>
+      </div>
+
+
+      <button type="submit" ng-click="toggleFilters()" class="btn btn-default">Show Me</button>
     </ul>
   </div><!-- /.navbar-collapse -->
 </nav>
-
-<button ng-click="hideLayer()">Hide</button>
-<map center="36.8452233,-76.2869356" zoom="15"
-     styles="[
-    {
-        'elementType': 'geometry',
-        'stylers': [
-            {
-                'hue': '#ff4400'
-            },
-            {
-                'saturation': -68
-            },
-            {
-                'lightness': -4
-            },
-            {
-                'gamma': 0.72
-            }
-        ]
-    },
-    {
-        'featureType': 'road',
-        'elementType': 'labels.icon'
-    },
-    {
-        'featureType': 'landscape.man_made',
-        'elementType': 'geometry',
-        'stylers': [
-            {
-                'hue': '#0077ff'
-            },
-            {
-                'gamma': 3.1
-            }
-        ]
-    },
-    {
-        'featureType': 'water',
-        'stylers': [
-            {
-                'hue': '#3EB3B3'
-            },
-            {
-                'gamma': 0.44
-            },
-            {
-                'saturation': -33
-            }
-        ]
-    },
-    {
-        'featureType': 'poi.park',
-        'stylers': [
-            {
-                'hue': '#44ff00'
-            },
-            {
-                'saturation': -23
-            }
-        ]
-    },
-    {
-        'featureType': 'water',
-        'elementType': 'labels.text.fill',
-        'stylers': [
-            {
-                'hue': '#3EB3B3'
-            },
-            {
-                'gamma': 0.77
-            },
-            {
-                'saturation': 65
-            },
-            {
-                'lightness': 99
-            }
-        ]
-    },
-    {
-        'featureType': 'water',
-        'elementType': 'labels.text.stroke',
-        'stylers': [
-            {
-                'gamma': 0.11
-            },
-            {
-                'weight': 5.6
-            },
-            {
-                'saturation': 99
-            },
-            {
-                'hue': '#3EB3B3'
-            },
-            {
-                'lightness': -86
-            }
-        ]
-    },
-    {
-        'featureType': 'transit.line',
-        'elementType': 'geometry',
-        'stylers': [
-            {
-                'hue': '#8B613B'
-            }
-        ]
-    },
-    {
-        'featureType': 'transit',
-        'elementType': 'labels.text.stroke',
-        'stylers': [
-
-            {
-                'hue': '#8B613B'
-            }
-        ]
-    }
-]">
+<!--
+<button ng-click="hideLayer()">Hide</button>-->
+<map center="36.8452233,-76.2869356" zoom="14"  disable-default-u-i="true"
+     styles="[{'featureType':'administrative','elementType':'all','stylers':[{'visibility':'on'},{'lightness':33}]},{'featureType':'landscape','elementType':'all','stylers':[{'color':'#f2e5d4'}]},{'featureType':'poi.park','elementType':'geometry','stylers':[{'color':'#c5dac6'}]},{'featureType':'poi.park','elementType':'labels','stylers':[{'visibility':'on'},{'lightness':20}]},{'featureType':'road','elementType':'all','stylers':[{'lightness':20}]},{'featureType':'road.highway','elementType':'geometry','stylers':[{'color':'#c5c6c6'}]},{'featureType':'road.arterial','elementType':'geometry','stylers':[{'color':'#e4d7c6'}]},{'featureType':'road.local','elementType':'geometry','stylers':[{'color':'#fbfaf7'}]},{'featureType':'water','elementType':'all','stylers':[{'visibility':'on'},{'color':'#3EB3B3'}]}]">
   <!--<kml-layer url="https://raw.githubusercontent.com/bythorsbeard/etrails/master/src/assets/kml/ElizabethRiverTrail.kml"></kml-layer>-->
   <!--<marker position="36.86641,-76.3115426" icon="http://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"></marker>-->
 </map>
