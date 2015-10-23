@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Entertainment</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Entertainment</name>
+			<Placemark>
+				<name>Harbor Park</name>
+				<description>Harbor Park is a stadium, used primarily for baseball, on the Elizabeth River, in downtown Norfolk, Virginia.</description>
+				<styleUrl>#icon</styleUrl>
+				<Point>
+					<coordinates>-76.27898800000000,36.84279300000000,0.0</coordinates>
+				</Point>
+			</Placemark>			
+		</Folder>
+		<Style id="icon">
+			<IconStyle>
+				<Icon>
+					<href>icons/mapPinEntertainment.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>		
+	</Document>
+</kml>

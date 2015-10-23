@@ -8,7 +8,7 @@
 			<Placemark>
 				<name>Park Avenue</name>
 				<description><![CDATA[Park Avenue: Sidewalk]]></description>
-				<styleUrl>#line-F4EB37-7</styleUrl>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Park Avenue</value>
@@ -23,18 +23,15 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>Elizabeth River Trail</name>
-				<description><![CDATA[name: Harbor Park<br>description: Sidewalk<br>gx_image_links: ]]></description>
-				<styleUrl>#line-F4EB37-7</styleUrl>
+				<name>Harbor Park</name>
+				<description><![CDATA[Harbor Park: Sidewalk]]></description>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Harbor Park</value>
 					</Data>
 					<Data name='description'>
 						<value>Sidewalk</value>
-					</Data>
-					<Data name='gx_image_links'>
-						<value></value>
 					</Data>
 				</ExtendedData>
 				<LineString>
@@ -43,18 +40,15 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>Elizabeth River Trail</name>
-				<description><![CDATA[name: Water Street<br>description: Asphalt Path<br>gx_image_links: ]]></description>
-				<styleUrl>#line-F4EB37-7</styleUrl>
+				<name>Water Street</name>
+				<description><![CDATA[Water Street: Asphalt Path]]></description>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Water Street</value>
 					</Data>
 					<Data name='description'>
 						<value>Asphalt Path</value>
-					</Data>
-					<Data name='gx_image_links'>
-						<value></value>
 					</Data>
 				</ExtendedData>
 				<LineString>
@@ -63,12 +57,12 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>Elizabeth River Trail</name>
-				<description><![CDATA[name: Waterside / Town Point Park<br>description: Sidewalk<br>gx_image_links: ]]></description>
-				<styleUrl>#line-F4EB37-7</styleUrl>
+				<name>Waterside/Town Point Park</name>
+				<description><![CDATA[Waterside/Town Point Park: Sidewalk]]></description>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
-						<value>Waterside / Town Point Park</value>
+						<value>Waterside/Town Point Park</value>
 					</Data>
 					<Data name='description'>
 						<value>Sidewalk</value>
@@ -83,18 +77,15 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>Elizabeth River Trail</name>
-				<description><![CDATA[name: Freemason District<br>description: Road<br>gx_image_links: ]]></description>
-				<styleUrl>#line-F4EB37-7</styleUrl>
+				<name>Freemason District</name>
+				<description><![CDATA[Freemason District: Road]]></description>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Freemason District</value>
 					</Data>
 					<Data name='description'>
 						<value>Road</value>
-					</Data>
-					<Data name='gx_image_links'>
-						<value></value>
 					</Data>
 				</ExtendedData>
 				<LineString>
@@ -103,18 +94,15 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>Elizabeth River Trail</name>
-				<description><![CDATA[name: Brambleton Bridge<br>description: Sidewalk<br>gx_image_links: ]]></description>
-				<styleUrl>#line-F4EB37-7</styleUrl>
+				<name>Brambleton Bridge</name>
+				<description><![CDATA[Brambleton Bridge: Sidewalk]]></description>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Brambleton Bridge</value>
 					</Data>
 					<Data name='description'>
 						<value>Sidewalk</value>
-					</Data>
-					<Data name='gx_image_links'>
-						<value></value>
 					</Data>
 				</ExtendedData>
 				<LineString>
@@ -123,18 +111,15 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>Elizabeth River Trail</name>
-				<description><![CDATA[name: Fort Norfolk<br>description: Road<br>gx_image_links: ]]></description>
-				<styleUrl>#line-F4EB37-7</styleUrl>
+				<name>Fort Norfolk</name>
+				<description><![CDATA[Fort Norfolk: Road]]></description>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Fort Norfolk</value>
 					</Data>
 					<Data name='description'>
 						<value>Road</value>
-					</Data>
-					<Data name='gx_image_links'>
-						<value></value>
 					</Data>
 				</ExtendedData>
 				<LineString>
@@ -143,18 +128,15 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>Elizabeth River Trail</name>
-				<description><![CDATA[name: Atlantic City Spur<br>description: Asphalt Path <br>gx_image_links: ]]></description>
-				<styleUrl>#line-F4EB37-7</styleUrl>
+				<name>Atlantic City Spur</name>
+				<description><![CDATA[Atlantic City Spur: Asphalt Path]]></description>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Atlantic City Spur</value>
 					</Data>
 					<Data name='description'>
 						<value>Asphalt Path </value>
-					</Data>
-					<Data name='gx_image_links'>
-						<value></value>
 					</Data>
 				</ExtendedData>
 				<LineString>
@@ -163,18 +145,15 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>Elizabeth River Trail</name>
-				<description><![CDATA[name: Orapax Street<br>description: Road<br>gx_image_links: ]]></description>
-				<styleUrl>#line-F4EB37-7</styleUrl>
+				<name>Orapax Street</name>
+				<description><![CDATA[Orapax Street: Road]]></description>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Orapax Street</value>
 					</Data>
 					<Data name='description'>
 						<value>Road</value>
-					</Data>
-					<Data name='gx_image_links'>
-						<value></value>
 					</Data>
 				</ExtendedData>
 				<LineString>
@@ -183,18 +162,15 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>Elizabeth River Trail</name>
-				<description><![CDATA[name: Redgate Avenue<br>description: Asphalt Path<br>gx_image_links: ]]></description>
-				<styleUrl>#line-F4EB37-7</styleUrl>
+				<name>Redgate Avenue</name>
+				<description><![CDATA[Redgate Avenue: Asphalt Path]]></description>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Redgate Avenue</value>
 					</Data>
 					<Data name='description'>
 						<value>Asphalt Path</value>
-					</Data>
-					<Data name='gx_image_links'>
-						<value></value>
 					</Data>
 				</ExtendedData>
 				<LineString>
@@ -204,17 +180,14 @@
 			</Placemark>
 			<Placemark>
 				<name>Lambert's Creek Trail</name>
-				<description><![CDATA[name: Lambert's Creek Trail<br>description: Asphalt Path / Bridge<br>gx_image_links: ]]></description>
-				<styleUrl>#line-F4EB37-7</styleUrl>
+				<description><![CDATA[Lambert's Creek Trail: Asphalt Path/Bridge]]></description>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Lambert's Creek Trail</value>
 					</Data>
 					<Data name='description'>
-						<value>Asphalt Path / Bridge</value>
-					</Data>
-					<Data name='gx_image_links'>
-						<value></value>
+						<value>Asphalt Path/Bridge</value>
 					</Data>
 				</ExtendedData>
 				<LineString>
@@ -223,18 +196,15 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>Elizabeth River Trail</name>
-				<description><![CDATA[name: Jeff Robertson Park<br>description: Asphalt Path<br>gx_image_links: ]]></description>
-				<styleUrl>#line-F4EB37-7</styleUrl>
+				<name>Jeff Robertson Park</name>
+				<description><![CDATA[Jeff Robertson Park: Asphalt Path]]></description>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Jeff Robertson Park</value>
 					</Data>
 					<Data name='description'>
 						<value>Asphalt Path</value>
-					</Data>
-					<Data name='gx_image_links'>
-						<value></value>
 					</Data>
 				</ExtendedData>
 				<LineString>
@@ -243,18 +213,15 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>Elizabeth River Trail</name>
-				<description><![CDATA[name: Hampton Blvd / W 26th Street<br>description: Sidewalk<br>gx_image_links: ]]></description>
-				<styleUrl>#line-F4EB37-7</styleUrl>
+				<name>Hampton Blvd/W 26th Street</name>
+				<description><![CDATA[Hampton Blvd/W 26th Street: Sidewalk]]></description>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
-						<value>Hampton Blvd / W 26th Street</value>
+						<value>Hampton Blvd/W 26th Street</value>
 					</Data>
 					<Data name='description'>
 						<value>Sidewalk</value>
-					</Data>
-					<Data name='gx_image_links'>
-						<value></value>
 					</Data>
 				</ExtendedData>
 				<LineString>
@@ -263,18 +230,15 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>Elizabeth River Trail</name>
-				<description><![CDATA[name: 26th / Bluestone / 25th Street<br>description: Road<br>gx_image_links: ]]></description>
-				<styleUrl>#line-F4EB37-7</styleUrl>
+				<name>26th/Bluestone/25th Street</name>
+				<description><![CDATA[26th/Bluestone/25th Street: Road]]></description>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
-						<value>26th / Bluestone / 25th Street</value>
+						<value>26th/Bluestone/25th Street</value>
 					</Data>
 					<Data name='description'>
 						<value>Road</value>
-					</Data>
-					<Data name='gx_image_links'>
-						<value></value>
 					</Data>
 				</ExtendedData>
 				<LineString>
@@ -283,18 +247,15 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>Elizabeth River Trail</name>
-				<description><![CDATA[name: Community Gardens<br>description: Asphalt Path<br>gx_image_links: ]]></description>
-				<styleUrl>#line-F4EB37-7</styleUrl>
+				<name>Community Gardens</name>
+				<description><![CDATA[Community Gardens: Asphalt Path]]></description>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Community Gardens</value>
 					</Data>
 					<Data name='description'>
 						<value>Asphalt Path</value>
-					</Data>
-					<Data name='gx_image_links'>
-						<value></value>
 					</Data>
 				</ExtendedData>
 				<LineString>
@@ -303,18 +264,15 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>Elizabeth River Trail</name>
-				<description><![CDATA[name: Lambert's Point<br>description: Sidewalk<br>gx_image_links: ]]></description>
-				<styleUrl>#line-F4EB37-7</styleUrl>
+				<name>Lambert's Point</name>
+				<description><![CDATA[Lambert's Point: Sidewalk]]></description>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Lambert's Point</value>
 					</Data>
 					<Data name='description'>
 						<value>Sidewalk</value>
-					</Data>
-					<Data name='gx_image_links'>
-						<value></value>
 					</Data>
 				</ExtendedData>
 				<LineString>
@@ -323,18 +281,15 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>Elizabeth River Trail</name>
-				<description><![CDATA[name: ODU Campus<br>description: Sidewalk<br>gx_image_links: ]]></description>
-				<styleUrl>#line-F4EB37-7</styleUrl>
+				<name>ODU Campus</name>
+				<description><![CDATA[ODU Campus: Sidewalk]]></description>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>ODU Campus</value>
 					</Data>
 					<Data name='description'>
 						<value>Sidewalk</value>
-					</Data>
-					<Data name='gx_image_links'>
-						<value></value>
 					</Data>
 				</ExtendedData>
 				<LineString>
@@ -343,18 +298,15 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>Elizabeth River Trail</name>
-				<description><![CDATA[name: Larchmont / Edgewater<br>description: Road<br>gx_image_links: ]]></description>
-				<styleUrl>#line-F4EB37-7</styleUrl>
+				<name>Larchmont/Edgewater</name>
+				<description><![CDATA[Larchmont/Edgewater: Road]]></description>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
-						<value>Larchmont / Edgewater</value>
+						<value>Larchmont/Edgewater</value>
 					</Data>
 					<Data name='description'>
 						<value>Road</value>
-					</Data>
-					<Data name='gx_image_links'>
-						<value></value>
 					</Data>
 				</ExtendedData>
 				<LineString>
@@ -363,18 +315,15 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>Elizabeth River Trail</name>
-				<description><![CDATA[name: Virginia Park<br>description: Road<br>gx_image_links: ]]></description>
-				<styleUrl>#line-F4EB37-7</styleUrl>
+				<name>Virginia Park</name>
+				<description><![CDATA[Virginia Park: Road]]></description>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Virginia Park</value>
 					</Data>
 					<Data name='description'>
 						<value>Road</value>
-					</Data>
-					<Data name='gx_image_links'>
-						<value></value>
 					</Data>
 				</ExtendedData>
 				<LineString>
@@ -383,18 +332,15 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>Elizabeth River Trail</name>
-				<description><![CDATA[name: Larchmont Library<br>description: Sidewalk<br>gx_image_links: ]]></description>
-				<styleUrl>#line-F4EB37-7</styleUrl>
+				<name>Larchmont Library</name>
+				<description><![CDATA[Larchmont Library: Sidewalk]]></description>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Larchmont Library</value>
 					</Data>
 					<Data name='description'>
 						<value>Sidewalk</value>
-					</Data>
-					<Data name='gx_image_links'>
-						<value></value>
 					</Data>
 				</ExtendedData>
 				<LineString>
@@ -403,18 +349,15 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>Elizabeth River Trail</name>
-				<description><![CDATA[name: Hampton Blvd Bridge<br>description: Sidewalk<br>gx_image_links: ]]></description>
-				<styleUrl>#line-F4EB37-7</styleUrl>
+				<name>Hampton Blvd Bridge</name>
+				<description><![CDATA[Hampton Blvd Bridge: Sidewalk]]></description>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Hampton Blvd Bridge</value>
 					</Data>
 					<Data name='description'>
 						<value>Sidewalk</value>
-					</Data>
-					<Data name='gx_image_links'>
-						<value></value>
 					</Data>
 				</ExtendedData>
 				<LineString>
@@ -423,18 +366,15 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>Elizabeth River Trail</name>
-				<description><![CDATA[name: North Shore Rd / Cloncurry Rd<br>description: Road<br>gx_image_links: ]]></description>
-				<styleUrl>#line-F4EB37-7</styleUrl>
+				<name>North Shore Rd/Cloncurry Rd</name>
+				<description><![CDATA[North Shore Rd/Cloncurry Rd: Road]]></description>
+				<styleUrl>#line-trail</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
-						<value>North Shore Rd / Cloncurry Rd</value>
+						<value>North Shore Rd/Cloncurry Rd</value>
 					</Data>
 					<Data name='description'>
 						<value>Road</value>
-					</Data>
-					<Data name='gx_image_links'>
-						<value></value>
 					</Data>
 				</ExtendedData>
 				<LineString>
@@ -443,26 +383,26 @@
 				</LineString>
 			</Placemark>
 		</Folder>
-		<Style id='line-F4EB37-7-normal'>
+		<Style id='line-trail-normal'>
 			<LineStyle>
-				<color>ff37EBF4</color>
-				<width>7</width>
+				<color>FF43A3F9</color>
+				<width>5</width>
 			</LineStyle>
 		</Style>
-		<Style id='line-F4EB37-7-highlight'>
+		<Style id='line-trail-highlight'>
 			<LineStyle>
-				<color>ff37EBF4</color>
-				<width>11.0</width>
+				<color>FF1C8EF5</color>
+				<width>10.0</width>
 			</LineStyle>
 		</Style>
-		<StyleMap id='line-F4EB37-7'>
+		<StyleMap id='line-trail'>
 			<Pair>
 				<key>normal</key>
-				<styleUrl>#line-F4EB37-7-normal</styleUrl>
+				<styleUrl>#line-trail-normal</styleUrl>
 			</Pair>
 			<Pair>
 				<key>highlight</key>
-				<styleUrl>#line-F4EB37-7-highlight</styleUrl>
+				<styleUrl>#line-trail-highlight</styleUrl>
 			</Pair>
 		</StyleMap>		
 	</Document>

@@ -8,7 +8,7 @@
 			<Placemark>
 				<name>Crosswalk across Brambleton</name>
 				<description><![CDATA[Cross Brambleton using crosswalk at York Street and Botetourt]]></description>
-				<styleUrl>#line-FF7C2F-6</styleUrl>
+				<styleUrl>#line-hazard</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Crosswalk across Brambleton</value>
@@ -25,7 +25,7 @@
 			<Placemark>
 				<name>Botetourt Bridge</name>
 				<description><![CDATA[Botetourt Bridge: Bike/Pedestrian Bridge]]></description>
-				<styleUrl>#line-FF7C2F-6</styleUrl>
+				<styleUrl>#line-hazard</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Botetourt Bridge</value>
@@ -42,7 +42,7 @@
 			<Placemark>
 				<name>Botetourt Street</name>
 				<description><![CDATA[Botetourt Street: Sidewalk]]></description>
-				<styleUrl>#line-FF7C2F-6</styleUrl>
+				<styleUrl>#line-hazard</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Botetourt Street</value>
@@ -59,7 +59,7 @@
 			<Placemark>
 				<name>W Olney Rd</name>
 				<description><![CDATA[W Olney Rd: Sidewalk]]></description>
-				<styleUrl>#line-FF7C2F-6</styleUrl>
+				<styleUrl>#line-hazard</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>W Olney Rd</value>
@@ -76,7 +76,7 @@
 			<Placemark>
 				<name>Crosswalk across W Olney Rd</name>
 				<description><![CDATA[Crosswalk across W Olney Rd: Road]]></description>
-				<styleUrl>#line-FF7C2F-6</styleUrl>
+				<styleUrl>#line-hazard</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Crosswalk across W Olney Rd</value>
@@ -93,7 +93,7 @@
 			<Placemark>
 				<name>Stockley Gardens</name>
 				<description><![CDATA[Stockley Gardens: Sidewalk]]></description>
-				<styleUrl>#line-FF7C2F-6</styleUrl>
+				<styleUrl>#line-hazard</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Stockley Gardens</value>
@@ -110,7 +110,7 @@
 			<Placemark>
 				<name>Redgate Ave</name>
 				<description><![CDATA[Redgate Ave: Sidewalk]]></description>
-				<styleUrl>#line-FF7C2F-6</styleUrl>
+				<styleUrl>#line-hazard</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Redgate Ave</value>
@@ -127,7 +127,7 @@
 			<Placemark>
 				<name>Crosswalk across Colley Ave</name>
 				<description><![CDATA[Crosswalk across Colley Ave: Road]]></description>
-				<styleUrl>#line-FF7C2F-6</styleUrl>
+				<styleUrl>#line-hazard</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Crosswalk across Colley Ave</value>
@@ -144,7 +144,7 @@
 			<Placemark>
 				<name>Redgate Ave</name>
 				<description><![CDATA[Redgate Ave: Sidewalk]]></description>
-				<styleUrl>#line-FF7C2F-6</styleUrl>
+				<styleUrl>#line-hazard</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Redgate Ave</value>
@@ -161,7 +161,7 @@
 			<Placemark>
 				<name>Crosswalk across Redgate Ave</name>
 				<description><![CDATA[Crosswalk across Redgate Ave: Road ]]></description>
-				<styleUrl>#line-FF7C2F-6</styleUrl>
+				<styleUrl>#line-hazard</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Crosswalk across Redgate Ave</value>
@@ -178,7 +178,7 @@
 			<Placemark>
 				<name>Redgate Ave</name>
 				<description><![CDATA[Redgate Ave: Asphalt Path]]></description>
-				<styleUrl>#line-FF7C2F-6</styleUrl>
+				<styleUrl>#line-hazard</styleUrl>
 				<ExtendedData>
 					<Data name='name'>
 						<value>Redgate Ave</value>
@@ -193,26 +193,26 @@
 				</LineString>
 			</Placemark>
 		</Folder>
-		<Style id='line-FF7C2F-6-normal'>
+		<Style id='line-hazard-normal'>
 			<LineStyle>
-				<color>ff2F7CFF</color>
-				<width>6</width>
+				<color>FF4400FF</color>
+				<width>5</width>
 			</LineStyle>
 		</Style>
-		<Style id='line-FF7C2F-6-highlight'>
+		<Style id='line-hazard-highlight'>
 			<LineStyle>
-				<color>ff2F7CFF</color>
-				<width>9.0</width>
+				<color>FF3702CB</color>
+				<width>10.0</width>
 			</LineStyle>
 		</Style>
-		<StyleMap id='line-FF7C2F-6'>
+		<StyleMap id='line-hazard'>
 			<Pair>
 				<key>normal</key>
-				<styleUrl>#line-FF7C2F-6-normal</styleUrl>
+				<styleUrl>#line-hazard-normal</styleUrl>
 			</Pair>
 			<Pair>
 				<key>highlight</key>
-				<styleUrl>#line-FF7C2F-6-highlight</styleUrl>
+				<styleUrl>#line-hazard-highlight</styleUrl>
 			</Pair>
 		</StyleMap>
 	</Document>
