@@ -18,32 +18,32 @@
       },
       hazards: {
         url: 'https://raw.githubusercontent.com/bythorsbeard/etrails/master/src/assets/kml/Hazards.kml',
-        suppressInfoWindows: true,
+        //suppressInfoWindows: true,
         preserveViewport: true
       },
       entertainment: {
         url: 'https://raw.githubusercontent.com/bythorsbeard/etrails/master/src/assets/kml/Entertainment.kml',
-        suppressInfoWindows: true,
+        //suppressInfoWindows: true,
         preserveViewport: true
       },
       food: {
         url: 'https://raw.githubusercontent.com/bythorsbeard/etrails/master/src/assets/kml/FoodDrink.kml',
-        suppressInfoWindows: true,
+        //suppressInfoWindows: true,
         preserveViewport: true
       },
       scenic: {
         url: 'https://raw.githubusercontent.com/bythorsbeard/etrails/master/src/assets/kml/Scenic.kml',
-        suppressInfoWindows: true,
+        //suppressInfoWindows: true,
         preserveViewport: true
       },
       historic: {
         url: 'https://raw.githubusercontent.com/bythorsbeard/etrails/master/src/assets/kml/Historic.kml',
-        suppressInfoWindows: true,
+        //suppressInfoWindows: true,
         preserveViewport: true
       },
       rest: {
         url: 'https://raw.githubusercontent.com/bythorsbeard/etrails/master/src/assets/kml/Rest.kml',
-        suppressInfoWindows: true,
+        //suppressInfoWindows: true,
         preserveViewport: true
       }
 
@@ -51,11 +51,15 @@
 
     $scope.toggleFilters = function () {
 
+      $scope.navCollapsed = true;
+
       if (document.getElementById("chkEnter").checked) {
         //entertainmentLayer = new google.maps.KmlLayer(layers.entertainment);
         entertainmentLayer.setMap(gmap);
+        $log.info("nope");
       }
       else {
+        $log.info("yep");
         entertainmentLayer.setMap(null);
       }
       if (document.getElementById("chkHist").checked) {
@@ -92,16 +96,9 @@
     $scope.$on('mapInitialized', function (event, map) {
       //google.maps.event.trigger(map, "resize");
       gmap = map;
+
       trailLayer = new google.maps.KmlLayer(layers.trail);
       trailLayer.setMap(gmap);
-
-/*      var image = 'assets/kml/icons/mapPinMe.png';
-      var meMarker = new google.maps.Marker({
-        map: gmap,
-        icon: image,
-        animation: google.maps.Animation.DROP,
-        position:{lat: 36.8452233,lng:-76.2869356}
-      });*/
 
       hazzardLayer = new google.maps.KmlLayer(layers.hazards);
       hazzardLayer.setMap(gmap);
@@ -145,17 +142,12 @@
         $log.info(text);
       });
 
-
-      entertainmentLayer = new google.maps.KmlLayer(layers.entertainment);
-      entertainmentLayer.setMap(gmap);
-
-
-
       $log.info(map);
     });
 
 
     $scope.findZoomMe = function(){
+      $scope.navCollapsed = true;
       //var infoWindow = new google.maps.InfoWindow({map: gmap});
       var image = 'assets/kml/icons/mapPinMe.png';
       if(!meMarker) {
@@ -174,9 +166,9 @@
 
           meMarker.setPosition(pos);
           //meMarker.setContent('Location found.');
-          log.info(pos);
+          $log.info(pos);
           gmap.setCenter(pos);
-          gmap.setZoom(20);
+          //gmap.setZoom(20);
 
         }, function (test) {
           $log.error(test);
