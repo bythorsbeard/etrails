@@ -15,7 +15,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Wisconsin Square</name>
-				<description>Wisconsin Square is a small park opposite the berth of the USS Wisconsin, a museum ship. The park contains memorials to the seamen were lost while serving on United States Navy ships homeported in Norfolk. The Square also contains the ship's bell of USS Norfolk and a copy of The Lone Sailor.</description>
+				<description><![CDATA[<h2 class="poiName">Wisconsin Square</h2><br/><img class="poiImage" src='assets/kml/images/wisconsinSquare.jpg'/><br/><div class="poiDescription">Wisconsin Square is a small park opposite the berth of the USS Wisconsin, a museum ship. The park contains memorials to the seamen were lost while serving on United States Navy ships homeported in Norfolk. The Square also contains the ship's bell of USS Norfolk and a copy of The Lone Sailor.</div>]]></description>
 				<styleUrl>#icon</styleUrl>
 				<Point>
 					<coordinates>-76.29445500000000,36.84865500000000,0.0</coordinates>
@@ -23,7 +23,7 @@
 			</Placemark>
 			<Placemark>
 				<name>USS Wisconsin</name>
-				<description>The Battleship Wisconsin is one of the largest and last battleships ever built by the U.S. Navy. Explore its deck through a self-guided tour or, with an additional charge, our guided Topside Tour that will take you back in time to experience this majestic ship that earned five battle stars during WW II.</description>
+				<description><![CDATA[<h2 class="poiName">USS Wisconsin</h2><br/><img class="poiImage" src='assets/kml/images/wisconsin.jpg'/><br/><div class="poiDescription">The Battleship Wisconsin is one of the largest and last battleships ever built by the U.S. Navy. Explore its deck through a self-guided tour or, with an additional charge, our guided Topside Tour that will take you back in time to experience this majestic ship that earned five battle stars during WW II.</div>]]></description>
 				<styleUrl>#icon</styleUrl>
 				<Point>
 					<coordinates>-76.29525500000000,36.84834500000000,0.0</coordinates>
@@ -31,7 +31,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Nauticus</name>
-				<description>NAUTICUS inspires and educates with engaging and interactive experiences that celebrate our connections with today's maritime world. Nauticus is a contemporary museum that uses the natural setting of Norfolk's harbor to showcase global maritime commerce and the world's largest Navy.</description>
+				<description><![CDATA[<h2 class="poiName">Nauticus</h2><br/><img class="poiImage" src='assets/kml/images/nauticus.jpg'/><br/><div class="poiDescription">NAUTICUS inspires and educates with engaging and interactive experiences that celebrate our connections with today's maritime world. Nauticus is a contemporary museum that uses the natural setting of Norfolk's harbor to showcase global maritime commerce and the world's largest Navy.</div>]]></description>
 				<styleUrl>#icon</styleUrl>
 				<Point>
 					<coordinates>-76.29476000000000,36.84748800000000,0.0</coordinates>

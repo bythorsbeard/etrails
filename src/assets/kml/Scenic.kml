@@ -7,7 +7,7 @@
 			<name>Scenic</name>
 			<Placemark>
 				<name>Pagoda and Oriental Garden</name>
-				<description>Enter one of the defining gates embraced with gentle swaying bamboo and experience a serene oasis where East meets West on over an acre of urban space. The naturalistic setting embodies many of the Chinese concepts of harmony and tranquility. Stroll the winding walkways and enjoy the essential elements of this exquisitely arranged landscape of plants, water, stone and architectural features. Views along the path framing the Pagoda change by season, revealing a layered beauty of both natural form and culture.</description>
+				<description><![CDATA[<h2 class="poiName">Pagoda and Oriental Garden</h2><br/><img class="poiImage" src='assets/kml/images/pagoda.jpg'/><br/><div class="poiDescription">Enter one of the defining gates embraced with gentle swaying bamboo and experience a serene oasis where East meets West on over an acre of urban space. The naturalistic setting embodies many of the Chinese concepts of harmony and tranquility. Stroll the winding walkways and enjoy the essential elements of this exquisitely arranged landscape of plants, water, stone and architectural features. Views along the path framing the Pagoda change by season, revealing a layered beauty of both natural form and culture.</div>]]></description>
 				<styleUrl>#icon</styleUrl>
 				<Point>
 					<coordinates>-76.29476800000000,36.84980000000000,0.0</coordinates>
@@ -15,7 +15,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Half Moone Cruise and Celebration Center </name>
-				<description>An 80,000 square-foot terminal located in the harbor between Town Point Park and Nauticus. The cruise terminal offers planners and attendees over 33,000 square feet of meeting and event space, as well as a large 13,000 square foot terrace overlooking the Elizabeth River.</description>
+				<description><![CDATA[<h2 class="poiName">Half Moone Cruise and Celebration Center</h2><br/><img class="poiImage" src='assets/kml/images/cruise.jpg'/><br/><div class="poiDescription">An 80,000 square-foot terminal located in the harbor between Town Point Park and Nauticus. The cruise terminal offers planners and attendees over 33,000 square feet of meeting and event space, as well as a large 13,000 square foot terrace overlooking the Elizabeth River.</div>]]></description>
 				<styleUrl>#icon</styleUrl>
 				<Point>
 					<coordinates>-76.29584600000000,36.84709000000000,0.0</coordinates>
