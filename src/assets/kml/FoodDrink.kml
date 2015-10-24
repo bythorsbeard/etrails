@@ -35,7 +35,7 @@
 				<Icon>
 					<href>icons/TESTICON.png</href>
 				</Icon>
-				<scale>1</scale>
+				<scale>1.5</scale>
 			</IconStyle>
 		</Style>
 		<Style id="smartmouth-icon">
