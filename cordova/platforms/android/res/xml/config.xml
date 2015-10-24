@@ -6,12 +6,11 @@
         <param name="onload" value="true" />
     </feature>
     <allow-intent href="market:*" />
-    <name>HelloCordova</name>
+    <name>Elizabeth River Trail</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Elizabeth River Trail App includig trail map and point of intrest along the trail.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="" href="">
     </author>
     <content src="index.html" />
     <access origin="*" />

@@ -7,7 +7,7 @@
 			<name>Food and Drink</name>
 			<Placemark>
 				<name>Cure Coffeehouse and Brasserie</name>
-				<description><![CDATA[<h2 class="poiName">Cure Coffeehouse and Brasserie</h2><br/><img class="poiImage" src='assets/kml/images/cure.jpg'/><br/><div class="poiDescription">Markedly distinct sandwiches, salads, coffee and espresso, specialty and exotic soda, craft-brew beer, wine and spirits.</div>]]></description>
+				<description><![CDATA[<div class="poi"><h2 class="poiName">Cure Coffeehouse and Brasserie</h2><br/><img class="poiImage" src='assets/kml/images/cure.jpg'/><br/><div class="poiDescription">Markedly distinct sandwiches, salads, coffee and espresso, specialty and exotic soda, craft-brew beer, wine and spirits.</div></div>]]></description>
 				<styleUrl>#icon</styleUrl>
 				<Point>
 					<coordinates>-76.29618700000000,36.85304200000000,0.0</coordinates>
@@ -15,7 +15,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Hummingbird Macarons</name>
-				<description><![CDATA[<h2 class="poiName">Hummingbird Macarons</h2><br/><img class="poiImage" src='assets/kml/images/hummingbird.jpg'/><br/><div class="poiDescription">Boutique bakery and dessert caterer.</div>]]></description>
+				<description><![CDATA[<div class="poi"><h2 class="poiName">Hummingbird Macarons</h2><br/><img class="poiImage" src='assets/kml/images/hummingbird.jpg'/><br/><div class="poiDescription">Boutique bakery and dessert caterer.</div></div>]]></description>
 				<styleUrl>#icon</styleUrl>
 				<Point>
 					<coordinates>-76.29616900000000,36.85289800000000,0.0</coordinates>
@@ -23,7 +23,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Smartmouth Brewing Company </name>
-				<description><![CDATA[<h2 class="poiName">Smartmouth Brewing Company</h2><br/><img class="poiImage" src='assets/kml/images/smartmouth.jpg'/><br/><div class="poiDescription">Craft brewery featuring an 1100-square-foot tasting room open to the public where you can have a sip or several, purchase a keg, fill your growlers and score some Smartmouth swag.</div>]]></description>
+				<description><![CDATA[<div class="poi"><h2 class="poiName">Smartmouth Brewing Company</h2><br/><img class="poiImage" src='assets/kml/images/smartmouth.jpg'/><br/><div class="poiDescription">Craft brewery featuring an 1100-square-foot tasting room open to the public where you can have a sip or several, purchase a keg, fill your growlers and score some Smartmouth swag.</div></div>]]></description>
 				<styleUrl>#smartmouth-icon</styleUrl>
 				<Point>
 					<coordinates>-76.30935100000000,36.86640300000000,0.0</coordinates>
