@@ -1,0 +1,29 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "Properties/WMAppManifest.xml": {
+                "parents": {
+                    "/Deployment/App/Capabilities": [
+                        {
+                            "xml": "<Capability Name=\"ID_CAP_LOCATION\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "{6625bcf0-7a5b-11e5-8c18-21fc908418e3}"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "{6625bcf0-7a5b-11e5-8c18-21fc908418e3}"
+        }
+    },
+    "dependent_plugins": {}
+}
