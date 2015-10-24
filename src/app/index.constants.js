@@ -4,7 +4,5 @@
 
   angular
     .module('etrails')
-    .constant('malarkey', malarkey)
-    .constant('moment', moment);
 
 })();

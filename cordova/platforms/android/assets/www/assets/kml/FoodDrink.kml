@@ -7,7 +7,7 @@
 			<name>Food and Drink</name>
 			<Placemark>
 				<name>Cure Coffeehouse and Brasserie</name>
-				<description>Markedly distinct sandwiches, salads, coffee and espresso, specialty and exotic soda, craft-brew beer, wine and spirits.</description>
+				<description><![CDATA[<h2 class="poiName">Cure Coffeehouse and Brasserie</h2><br/><img class="poiImage" src='assets/kml/images/cure.jpg'/><br/><div class="poiDescription">Markedly distinct sandwiches, salads, coffee and espresso, specialty and exotic soda, craft-brew beer, wine and spirits.</div>]]></description>
 				<styleUrl>#icon</styleUrl>
 				<Point>
 					<coordinates>-76.29618700000000,36.85304200000000,0.0</coordinates>
@@ -15,7 +15,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Hummingbird Macarons</name>
-				<description>Boutique bakery and dessert caterer.</description>
+				<description><![CDATA[<h2 class="poiName">Hummingbird Macarons</h2><br/><img class="poiImage" src='assets/kml/images/hummingbird.jpg'/><br/><div class="poiDescription">Boutique bakery and dessert caterer.</div>]]></description>
 				<styleUrl>#icon</styleUrl>
 				<Point>
 					<coordinates>-76.29616900000000,36.85289800000000,0.0</coordinates>

@@ -10,12 +10,12 @@
       .when('/', {
         templateUrl: 'app/splash/splash.html',
         controller: 'SplashController',
-        controllerAs: 'splash'
+        //controllerAs: 'splash'
       })
       .when('/main', {
         templateUrl: 'app/main/main.html',
         controller: 'MainController',
-        controllerAs: 'main'
+        //controllerAs: 'main'
       })
       .otherwise({
         redirectTo: '/'

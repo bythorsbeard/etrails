@@ -1,3 +1,4 @@
+/*
 (function() {
   'use strict';
 
@@ -5,7 +6,7 @@
     .module('etrails')
     .controller('MainController', MainController);
 
-  /** @ngInject */
+  /!** @ngInject *!/
   function MainController($scope,$timeout, webDevTec, toastr,$log) {
 
     var vm = this;
@@ -42,3 +43,4 @@
     }
   }
 })();
+*/

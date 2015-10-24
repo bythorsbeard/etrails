@@ -6,7 +6,7 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController($scope, $timeout, webDevTec, toastr, $log) {
+  function MainController($scope, $log) {
 
     var vm = this;
     var gmap, trailLayer, hazzardLayer, entertainmentLayer, historicLayer, foodLayer, scenicLayer, restLayer,meMarker;
