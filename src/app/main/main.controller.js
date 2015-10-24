@@ -6,7 +6,7 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController($scope, $log) {
+  function MainController($scope, $log,$location) {
 
     var vm = this;
     var gmap, trailLayer, hazzardLayer, entertainmentLayer, historicLayer, foodLayer, scenicLayer, restLayer,meMarker;
@@ -181,6 +181,10 @@
         handleLocationError(false, meMarker, gmap.getCenter());
       }
 
+    };
+
+    $scope.overView = function(){
+      $location.path("/overview");
     };
 
     function handleLocationError(browserHasGeolocation, infoWindow, pos) {

@@ -15,29 +15,41 @@
   <div class="collapse navbar-collapse" ng-class="!navCollapsed && 'in'">
 
     <ul class="nav navbar-nav">
+      <div class="checkbox">
+        <label ng-click="overView()" class="alert-link strong" style="text-decoration: underline;">
+          Elizabeth River Trail Info
+        </label>
+      </div>
 
-      <div class="checkbox" >
+      <hr/>
+
+      <div class="checkbox">
         <label>
+          <img class="checkIcons" src="assets/kml/icons/mapPinBeer.png">
           <input id="chkFood" type="checkbox" checked="checked"> Food & Drink
         </label>
       </div>
       <div class="checkbox">
         <label>
+          <img class="checkIcons" src="assets/kml/icons/mapPinEntertainment.png">
           <input id="chkEnter" type="checkbox" checked="checked"> Entertainment
         </label>
       </div>
       <div class="checkbox">
         <label>
+          <img class="checkIcons" src="assets/kml/icons/mapPinHistorical.png">
           <input id="chkHist" type="checkbox" checked="checked"> Historic
         </label>
       </div>
       <div class="checkbox">
         <label>
+          <img class="checkIcons" src="assets/kml/icons/mapPinPhotoWorthy.png">
           <input id="chkScenic" type="checkbox" checked="checked"> Scenic
         </label>
       </div>
       <div class="checkbox">
         <label>
+          <img class="checkIcons" src="assets/kml/icons/mapPinRest.png">
           <input id="chkRest" type="checkbox" checked="checked"> Rest
         </label>
       </div>
@@ -46,12 +58,14 @@
       <button type="submit" ng-click="toggleFilters()" class="btn btn-default text-center">Show Me</button>
       <button type="submit" ng-click="findZoomMe()" class="btn btn-default">Where am I?</button>
 
+
     </ul>
-  </div><!-- /.navbar-collapse -->
+  </div>
+  <!-- /.navbar-collapse -->
 </nav>
 <!--
 <button ng-click="hideLayer()">Hide</button>-->
-<map center="36.8452233,-76.2869356" zoom="14"  disable-default-u-i="true"
+<map center="36.8452233,-76.2869356" zoom="14" disable-default-u-i="true"
      styles="[{'featureType':'administrative','elementType':'all','stylers':[{'visibility':'on'},{'lightness':33}]},{'featureType':'landscape','elementType':'all','stylers':[{'color':'#f2e5d4'}]},{'featureType':'poi.park','elementType':'geometry','stylers':[{'color':'#c5dac6'}]},{'featureType':'poi.park','elementType':'labels','stylers':[{'visibility':'on'},{'lightness':20}]},{'featureType':'road','elementType':'all','stylers':[{'lightness':20}]},{'featureType':'road.highway','elementType':'geometry','stylers':[{'color':'#c5c6c6'}]},{'featureType':'road.arterial','elementType':'geometry','stylers':[{'color':'#e4d7c6'}]},{'featureType':'road.local','elementType':'geometry','stylers':[{'color':'#fbfaf7'}]},{'featureType':'water','elementType':'all','stylers':[{'visibility':'on'},{'color':'#3EB3B3'}]}]">
   <!--<kml-layer url="https://raw.githubusercontent.com/bythorsbeard/etrails/master/src/assets/kml/ElizabethRiverTrail.kml"></kml-layer>-->
   <!--<marker position="36.86641,-76.3115426" icon="http://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"></marker>-->

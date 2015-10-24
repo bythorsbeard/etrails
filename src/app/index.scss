@@ -75,6 +75,23 @@ html.ng-scope{
   height:100%;
   width:100%;
 }
+
+.checkbox, .radio{
+ font-size:16px;
+}
+
+.checkIcons{
+  height: 25px;
+  padding-right: 32px;
+}
+
+.overviewimg{
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject
  *  all your sass files automatically
