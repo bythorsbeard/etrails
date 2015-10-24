@@ -9,13 +9,11 @@
   function MainController($scope, $timeout, webDevTec, toastr, $log) {
 
     var vm = this;
-    var gmap, trailLayer, hazzardLayer, entertainmentLayer, historicLayer, foodLayer, scenicLayer, restLayer;
-
+    var gmap, trailLayer, hazzardLayer, entertainmentLayer, historicLayer, foodLayer, scenicLayer, restLayer,meMarker;
 
     var layers = {
       trail: {
         url: 'https://raw.githubusercontent.com/bythorsbeard/etrails/master/src/assets/kml/ElizabethRiverTrail.kml',
-        suppressInfoWindows: true,
         preserveViewport: true
       },
       hazards: {
@@ -96,85 +94,102 @@
       gmap = map;
       trailLayer = new google.maps.KmlLayer(layers.trail);
       trailLayer.setMap(gmap);
-      trailLayer.addListener('click', function(kmlEvent) {
-        var text = kmlEvent.featureData.description;
-        $log.info(text);
-      });
+
+/*      var image = 'assets/kml/icons/mapPinMe.png';
+      var meMarker = new google.maps.Marker({
+        map: gmap,
+        icon: image,
+        animation: google.maps.Animation.DROP,
+        position:{lat: 36.8452233,lng:-76.2869356}
+      });*/
 
       hazzardLayer = new google.maps.KmlLayer(layers.hazards);
       hazzardLayer.setMap(gmap);
-      hazzardLayer.addListener('click', function(kmlEvent) {
+      hazzardLayer.addListener('click', function (kmlEvent) {
         var text = kmlEvent.featureData.description;
         $log.info(text);
       });
 
       entertainmentLayer = new google.maps.KmlLayer(layers.entertainment);
       entertainmentLayer.setMap(gmap);
-      entertainmentLayer.addListener('click', function(kmlEvent) {
+      entertainmentLayer.addListener('click', function (kmlEvent) {
         var text = kmlEvent.featureData.description;
         $log.info(text);
       });
 
       historicLayer = new google.maps.KmlLayer(layers.historic);
       historicLayer.setMap(gmap);
-      historicLayer.addListener('click', function(kmlEvent) {
+      historicLayer.addListener('click', function (kmlEvent) {
         var text = kmlEvent.featureData.description;
         $log.info(text);
       });
 
       foodLayer = new google.maps.KmlLayer(layers.food);
       foodLayer.setMap(gmap);
-      foodLayer.addListener('click', function(kmlEvent) {
+      foodLayer.addListener('click', function (kmlEvent) {
         var text = kmlEvent.featureData.description;
         $log.info(text);
       });
 
       scenicLayer = new google.maps.KmlLayer(layers.scenic);
       scenicLayer.setMap(gmap);
-      scenicLayer.addListener('click', function(kmlEvent) {
+      scenicLayer.addListener('click', function (kmlEvent) {
         var text = kmlEvent.featureData.description;
         $log.info(text);
       });
 
       restLayer = new google.maps.KmlLayer(layers.rest);
       restLayer.setMap(gmap);
-      restLayer.addListener('click', function(kmlEvent) {
+      restLayer.addListener('click', function (kmlEvent) {
         var text = kmlEvent.featureData.description;
         $log.info(text);
       });
 
 
-      /*entertainmentLayer = new google.maps.KmlLayer(layers.entertainment);
-       entertainmentLayer.setMap(map);*/
+      entertainmentLayer = new google.maps.KmlLayer(layers.entertainment);
+      entertainmentLayer.setMap(gmap);
 
-      /* var infoWindow = new google.maps.InfoWindow({map: map});
 
-       // Try HTML5 geolocation.
-       if (navigator.geolocation) {
-       navigator.geolocation.getCurrentPosition(function(position) {
-       var pos = {
-       lat: position.coords.latitude,
-       lng: position.coords.longitude
-       };
-
-       infoWindow.setPosition(pos);
-       infoWindow.setContent('Location found.');
-       log.info(pos);
-       map.setCenter(pos);
-       }, function(test) {
-       $log.error(test);
-       $log.error("wtf");
-       handleLocationError(true, infoWindow, map.getCenter());
-       });
-       } else {
-       $log.error("huh");
-       // Browser doesn't support Geolocation
-       handleLocationError(false, infoWindow, map.getCenter());
-       }
-       */
 
       $log.info(map);
     });
+
+
+    $scope.findZoomMe = function(){
+      //var infoWindow = new google.maps.InfoWindow({map: gmap});
+      var image = 'assets/kml/icons/mapPinMe.png';
+      if(!meMarker) {
+        meMarker = new google.maps.Marker({
+          map: gmap,
+          icon: image
+        });
+      }
+      // Try HTML5 geolocation.
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function (position) {
+          var pos = {
+            lat: position.coords.latitude,
+            lng: position.coords.longitude
+          };
+
+          meMarker.setPosition(pos);
+          //meMarker.setContent('Location found.');
+          log.info(pos);
+          gmap.setCenter(pos);
+          gmap.setZoom(20);
+
+        }, function (test) {
+          $log.error(test);
+          $log.error("wtf");
+          handleLocationError(true, meMarker, gmap.getCenter());
+        });
+      } else {
+        $log.error("huh");
+        // Browser doesn't support Geolocation
+        handleLocationError(false, meMarker, gmap.getCenter());
+      }
+
+    };
 
     function handleLocationError(browserHasGeolocation, infoWindow, pos) {
       infoWindow.setPosition(pos);

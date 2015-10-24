@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Entertainment</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Entertainment</name>
+			<Placemark>
+				<name>Harbor Park</name>
+				<description>Harbor Park is a stadium, used primarily for baseball, on the Elizabeth River.</description>
+				<styleUrl>#icon</styleUrl>
+				<Point>
+					<coordinates>-76.27898800000000,36.84279300000000,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Spirit of Norfolk</name>
+				<description>Splash aboard Spirit of Norfolk for the perfect mix of dining, entertainment and views.</description>
+				<styleUrl>#icon</styleUrl>
+				<Point>
+					<coordinates>-76.29324800000000,36.84484800000000,0.0</coordinates>
+				</Point>
+			</Placemark>			
+		</Folder>
+		<Style id="icon">
+			<IconStyle>
+				<Icon>
+					<href>icons/mapPinEntertainment.png</href>
+				</Icon>
+				<scale>1.5</scale>
+			</IconStyle>
+		</Style>		
+	</Document>
+</kml>
