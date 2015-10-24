@@ -33,7 +33,7 @@
 		<Style id="icon">
 			<IconStyle>
 				<Icon>
-					<href>icons/TESTICON.png</href>
+					<href>icons/mapPinBeer.png</href>
 				</Icon>
 				<scale>1.5</scale>
 			</IconStyle>
