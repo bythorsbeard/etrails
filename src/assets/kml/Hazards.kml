@@ -7,7 +7,7 @@
 			<name>Hazards</name>
 			<Placemark>
 				<name>Bent Pole</name>
-				<description></description>
+				<description><![CDATA[<div class="poi"><h2 class="poiName">Bent Pole</h2><br/><img class="poiImage" src='assets/kml/images/hazards/bentPole.png'/><br/><div class="poiDescription"></div></div>]]></description>
 				<styleUrl>#icon</styleUrl>
 				<Point>
 					<coordinates>-76.28107900000000,36.84235700000000,0.0</coordinates>
