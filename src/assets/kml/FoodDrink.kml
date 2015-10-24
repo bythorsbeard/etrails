@@ -23,7 +23,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Smartmouth Brewing Company </name>
-				<description><![CDATA[<h2 class="poiName">Smartmouth Brewing Company</h2><br/><img class="poiImage" src='kml/images/smartmouth.jpg'/><br/><div class="poiDescription">Craft brewery featuring an 1100-square-foot tasting room open to the public where you can have a sip or several, purchase a keg, fill your growlers and score some Smartmouth swag.</div>]]></description>
+				<description><![CDATA[<h2 class="poiName">Smartmouth Brewing Company</h2><br/><img class="poiImage" src='assests/kml/images/smartmouth.jpg'/><br/><div class="poiDescription">Craft brewery featuring an 1100-square-foot tasting room open to the public where you can have a sip or several, purchase a keg, fill your growlers and score some Smartmouth swag.</div>]]></description>
 				<styleUrl>#smartmouth-icon</styleUrl>
 				<Point>
 					<coordinates>-76.30935100000000,36.86640300000000,0.0</coordinates>
