@@ -7,7 +7,7 @@
 			<name>Historic</name>
 			<Placemark>
 				<name>Carnegie Library</name>
-				<description>In 1904, with the help of a $50,000 grant from Andrew Carnegie, Norfolk's first FREE public library opened on West Freemason Street, on a site donated by the children of William Selden.</description>
+				<description><![CDATA[<h2 class="poiName">Carnegie Library</h2><br/><img class="poiImage" src='assets/kml/images/library.jpg'/><br/><div class="poiDescription">In 1904, with the help of a $50,000 grant from Andrew Carnegie, Norfolk's first FREE public library opened on West Freemason Street, on a site donated by the children of William Selden.</div>]]></description>
 				<styleUrl>#icon</styleUrl>
 				<Point>
 					<coordinates>-76.29539500000000,36.85181900000000,0.0</coordinates>
