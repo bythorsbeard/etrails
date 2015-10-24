@@ -1,0 +1,14 @@
+C:\Development\etrails\cordova\platforms\wp8\Bin\Release\ApplicationIcon.png
+C:\Development\etrails\cordova\platforms\wp8\Bin\Release\Background.png
+C:\Development\etrails\cordova\platforms\wp8\Bin\Release\io.cordova.hellocordova.dll
+C:\Development\etrails\cordova\platforms\wp8\Bin\Release\io.cordova.hellocordova.pdb
+C:\Development\etrails\cordova\platforms\wp8\Bin\Release\AppManifest.xaml
+C:\Development\etrails\cordova\platforms\wp8\Bin\Release\Properties\WMAppManifest.xml
+C:\Development\etrails\cordova\platforms\wp8\Bin\Release\CordovaAppProj_Release_AnyCPU.xap
+C:\Development\etrails\cordova\platforms\wp8\obj\Release\App.g.cs
+C:\Development\etrails\cordova\platforms\wp8\obj\Release\cordovalib\CordovaView.g.cs
+C:\Development\etrails\cordova\platforms\wp8\obj\Release\MainPage.g.cs
+C:\Development\etrails\cordova\platforms\wp8\obj\Release\io.cordova.hellocordova.g.resources
+C:\Development\etrails\cordova\platforms\wp8\obj\Release\io.cordova.hellocordova.dll
+C:\Development\etrails\cordova\platforms\wp8\obj\Release\io.cordova.hellocordova.pdb
+C:\Development\etrails\cordova\platforms\wp8\obj\Release\XapCacheFile.xml

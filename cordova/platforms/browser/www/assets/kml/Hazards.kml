@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Hazards</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Hazards</name>
+			<Placemark>
+				<name>Bent Pole</name>
+				<description><![CDATA[<div class="poi"><h2 class="poiName">Bent Pole</h2><br/><img class="poiImage" src='assets/kml/images/hazards/bentPole.png'/><br/><div class="poiDescription"></div></div>]]></description>
+				<styleUrl>#icon</styleUrl>
+				<Point>
+					<coordinates>-76.28107900000000,36.84235700000000,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id="icon">
+			<IconStyle>
+				<Icon>
+					<href>icons/mapPinHazard.png</href>
+				</Icon>
+				<scale>1.5</scale>
+			</IconStyle>
+		</Style>		
+		<Style id='line-trail-normal'>
+			<LineStyle>
+				<color>FF43A3F9</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-trail-highlight'>
+			<LineStyle>
+				<color>FF1C8EF5</color>
+				<width>10.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-trail'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-trail-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-trail-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-hazard-normal'>
+			<LineStyle>
+				<color>FF4400FF</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-hazard-highlight'>
+			<LineStyle>
+				<color>FF3702CB</color>
+				<width>10.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-hazard'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-hazard-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-hazard-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>
