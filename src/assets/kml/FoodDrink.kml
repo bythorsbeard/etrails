@@ -33,9 +33,9 @@
 		<Style id="icon">
 			<IconStyle>
 				<Icon>
-					<href>icons/mapPinBeer.svg</href>
+					<href>icons/TESTICON.png</href>
 				</Icon>
-				<scale>1.5</scale>
+				<scale>1</scale>
 			</IconStyle>
 		</Style>
 		<Style id="smartmouth-icon">
