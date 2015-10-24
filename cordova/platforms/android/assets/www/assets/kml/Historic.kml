@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Historic</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Historic</name>
+			<Placemark>
+				<name>Carnegie Library</name>
+				<description>In 1904, with the help of a $50,000 grant from Andrew Carnegie, Norfolk's first FREE public library opened on West Freemason Street, on a site donated by the children of William Selden.</description>
+				<styleUrl>#icon</styleUrl>
+				<Point>
+					<coordinates>-76.29539500000000,36.85181900000000,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Wisconsin Square</name>
+				<description>Wisconsin Square is a small park opposite the berth of the USS Wisconsin, a museum ship. The park contains memorials to the seamen were lost while serving on United States Navy ships homeported in Norfolk. The Square also contains the ship's bell of USS Norfolk and a copy of The Lone Sailor.</description>
+				<styleUrl>#icon</styleUrl>
+				<Point>
+					<coordinates>-76.29445500000000,36.84865500000000,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>USS Wisconsin</name>
+				<description>The Battleship Wisconsin is one of the largest and last battleships ever built by the U.S. Navy. Explore its deck through a self-guided tour or, with an additional charge, our guided Topside Tour that will take you back in time to experience this majestic ship that earned five battle stars during WW II.</description>
+				<styleUrl>#icon</styleUrl>
+				<Point>
+					<coordinates>-76.29525500000000,36.84834500000000,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nauticus</name>
+				<description>NAUTICUS inspires and educates with engaging and interactive experiences that celebrate our connections with today's maritime world. Nauticus is a contemporary museum that uses the natural setting of Norfolk's harbor to showcase global maritime commerce and the world's largest Navy.</description>
+				<styleUrl>#icon</styleUrl>
+				<Point>
+					<coordinates>-76.29476000000000,36.84748800000000,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fort Norfolk</name>
+				<description>Fort Norfolk is a historic fort and national historic district located at Norfolk, Virginia. With the original buildings having been built between 1795 and 1809, the fort encompasses 11 contributing buildings which include: main gate, guardhouse, officers' quarters, powder magazine, and carpenter's shop. Fort Norfolk is the last remaining fortification of President George Washington’s 18th Century harbor defenses. It has served as the district office for the U. S. Army Engineer District, Norfolk since 1923.</description>
+				<styleUrl>#icon</styleUrl>
+				<Point>
+					<coordinates>-76.306381000000000,36.85672900000000,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id="icon">
+			<IconStyle>
+				<Icon>
+					<href>icons/mapPinHistorical.png</href>
+				</Icon>
+				<scale>1.5</scale>
+			</IconStyle>
+		</Style>		
+	</Document>
+</kml>

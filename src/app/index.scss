@@ -44,16 +44,29 @@ map {
 }
 
 div.navbar-header, div.collapse.navbar-collapse.in{
-  background-color: #333333;
+  background-color: #d8d8e2;
 }
 
 nav.navbar {
-  color: #ffffff;
+  color: #333333;
+}
+
+nav.navbar-nav label{
+  padding-left: 10px;
+}
+
+div.checkbox{
+  padding-left:10px;
 }
 
 button.btn.btn-default {
   width:100%;
 }
+
+html.ng-scope{
+  background-color: #d8d8e2;
+}
+
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject
  *  all your sass files automatically
