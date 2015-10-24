@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Scenic</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Scenic</name>
+			<Placemark>
+				<name>Pagoda and Oriental Garden</name>
+				<description>Enter one of the defining gates embraced with gentle swaying bamboo and experience a serene oasis where East meets West on over an acre of urban space. The naturalistic setting embodies many of the Chinese concepts of harmony and tranquility. Stroll the winding walkways and enjoy the essential elements of this exquisitely arranged landscape of plants, water, stone and architectural features. Views along the path framing the Pagoda change by season, revealing a layered beauty of both natural form and culture.</description>
+				<styleUrl>#icon</styleUrl>
+				<Point>
+					<coordinates>-76.29476800000000,36.84980000000000,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Half Moone Cruise and Celebration Center </name>
+				<description>An 80,000 square-foot terminal located in the harbor between Town Point Park and Nauticus. The cruise terminal offers planners and attendees over 33,000 square feet of meeting and event space, as well as a large 13,000 square foot terrace overlooking the Elizabeth River.</description>
+				<styleUrl>#icon</styleUrl>
+				<Point>
+					<coordinates>-76.29584600000000,36.84709000000000,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Town Point Park</name>
+				<description>A 7-acre waterfront city park. The park hosts major outdoor concerts, award-winning festivals and special events each year to include Norfolk Harborfest, Bayou Boogaloo, and 4th of July Celebrations. Located in the park are The Homecoming statue and the Armed Forces Memorial</description>
+				<styleUrl>#icon</styleUrl>
+				<Point>
+					<coordinates>-76.29461800000000,36.84628400000000,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TowneBank Fountain Park</name>
+				<description>This beautiful interactive fountain serves as an anchor in Town Point Park and can be found in TowneBank Fountain Park which is situated alongside Waterside Marina and Waterside Live.  The interactive fountain is a great way to cool off from the summer heat, entertaining visitors with daily performances of 28 water jets shooting water up to 12 ft into the air and enhancing its nighttime performances with illumination.</description>
+				<styleUrl>#icon</styleUrl>
+				<Point>
+					<coordinates>-76.29249400000000,36.84467200000000,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Waterside District</name>
+				<description>Located in the heart of the central business district and adjacent to the City of Norfolk's world class waterfront and festival site, the Waterside District will become a central gathering place for local residents and visitors.  A $40 million overhaul and rebranding of Norfolk's iconic Waterside Festival Marketplace will allow visitors to enjoy the best national and local brands and concepts in an atmosphere that integrate the downtown with its waterfront. The Waterside District is being developed by The Cordish Company of Baltimore, MD, the refurbished complex is scheduled for completion in spring 2017.</description>
+				<styleUrl>#icon</styleUrl>
+				<Point>
+					<coordinates>-76.29128700000000,36.84429700000000,0.0</coordinates>
+				</Point>
+			</Placemark>			
+		</Folder>
+		<Style id="icon">
+			<IconStyle>
+				<Icon>
+					<href>icons/mapPinPhotoWorthy.png</href>
+				</Icon>
+				<scale>1.5</scale>
+			</IconStyle>
+		</Style>		
+	</Document>
+</kml>
