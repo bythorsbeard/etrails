@@ -43,6 +43,17 @@ map {
   height: 100%;
 }
 
+div.navbar-header, div.collapse.navbar-collapse.in{
+  background-color: #333333;
+}
+
+nav.navbar {
+  color: #ffffff;
+}
+
+button.btn.btn-default {
+  width:100%;
+}
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject
  *  all your sass files automatically
