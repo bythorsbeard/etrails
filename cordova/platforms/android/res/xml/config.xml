@@ -6,6 +6,7 @@
         <param name="onload" value="true" />
     </feature>
     <allow-intent href="market:*" />
+    <icon src="images/androidicon.png" />
     <name>Elizabeth River Trail</name>
     <description>
         Elizabeth River Trail App includig trail map and point of intrest along the trail.

@@ -168,7 +168,7 @@
           //meMarker.setContent('Location found.');
           $log.info(pos);
           gmap.setCenter(pos);
-          //gmap.setZoom(20);
+          gmap.setZoom(17);
 
         }, function (test) {
           $log.error(test);
